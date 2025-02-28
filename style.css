@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Anek Latin", serif;
+}
+
+.nav-item a {
+    margin: 16px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+a.nav-link:hover{
+    background-color: lightgray;
+}
+
+#navbar-input {
+    border: 2px solid black;
+    border-radius: 70px;
+    text-align: center;
+}
+
+#navbar-input:focus {
+    border-color: gold;
+    box-shadow: 0 0 0 0.25rem rgba(255, 227, 69, 0.432);
+}
+
+#navbar-button {
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+/* #navbar-button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+} */
+
+#carousel-first::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.329), rgba(187, 83, 83, 0.425));
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h4 {
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.459);
+    text-decoration: underline;
+}
+
+.carousel-caption p {
+    color: darkred;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.459);
+}
+
+.product-card p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.ecommerce-gallery {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.video-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.ecommerce-gallery {
+    margin-bottom: 80px;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.social-icons a:hover {
+    border-radius: 50px;
+    font-size: 28px;
+    color: white;
+    transition: 0.3s;
+}
+
+.container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#carousel-sec:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgba(231, 122, 122, 0.315), rgba(240, 214, 66, 0.26));
+}
+
+.contact-form-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-form-container h2{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#mension{
+    color: red;
+}
+
+.about-content h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.about-content p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
